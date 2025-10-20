@@ -3,53 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>런데이 UXUI포트폴리오</title>
+    <title>런데이 UXUI 포트폴리오</title>
 </head>
 <body>
-    <div class="wrap">
+    <!-- <header class="header-wrap">
+        <div class="header-inner">
+            <div class="logo">logo</div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>자기소개</li>
+                        <li>포트폴리오</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> -->
+    <div class="section-wrap">
         <div class="section main">  
-            <img src="/images/main.webp" alt="메인 이미지">
+            <img src="/images/1.webp" alt="메인 이미지">
+        </div>
+        <div class="section overview">
+            <img src="/images/2.webp" loading="lazy" decoding="async" alt="오버뷰">
         </div>
         <div class="section background">
-            <img src="/images/background.webp" loading="lazy" decoding="async" alt="백그라운드">
+            <img src="/images/3.webp" loading="lazy" decoding="async" alt="백그라운드">
         </div>
-        <div class="section interview">
-            <img src="/images/in-depth-interview.webp" loading="lazy" decoding="async" alt="심층인터뷰">
+        <div class="section problem">
+            <img src="/images/4.webp" loading="lazy" decoding="async" alt="문제점">
+        </div>
+        <div class="section review">
+            <img src="/images/5.webp" loading="lazy" decoding="async" alt="리뷰">
+        </div>
+        <div class="section review">
+            <img src="/images/6.webp" loading="lazy" decoding="async" alt="리뷰정리">
+        </div>
+        <div class="section in-depth-interview">
+            <img src="/images/7.webp" loading="lazy" decoding="async" alt="심층인터뷰">
         </div>
         <div class="section card-sorting">
-            <img src="/images/card-sorting.webp" loading="lazy" decoding="async" alt="카드소팅">
+            <img src="/images/8.webp" loading="lazy" decoding="async" alt="카드소팅">
         </div>
-        <div class="section ut-test">
-            <img src="/images/ut-01.webp" loading="lazy" decoding="async" alt="사용자 테스트">
-            <img src="/images/ut-02.webp" loading="lazy" decoding="async" alt="사용자 테스트">
-            <img src="/images/ut-03.webp" loading="lazy" decoding="async" alt="사용자 테스트">
-            <img src="/images/ut-04.webp" loading="lazy" decoding="async" alt="사용자 테스트">
+        <div class="section hypothesis">
+            <img src="/images/9.webp" loading="lazy" decoding="async" alt="가설설정">
         </div>
-        <div class="section final">
-            <img src="/images/final.webp" loading="lazy" decoding="async" alt="마지막 감사인사">
+        <div class="section tree-testing">
+            <img src="/images/10.webp" loading="lazy" decoding="async" alt="트리테스팅">
+        </div>
+        <div class="section design-component">
+            <img src="/images/11.webp" loading="lazy" decoding="async" alt="디자인시스템">
+        </div>
+        <div class="section solution">
+            <img src="/images/12-1.webp" loading="lazy" decoding="async" alt="solution">
+            <img src="/images/12-2.webp" loading="lazy" decoding="async" alt="solution">
+        </div>
+        <div class="section solution">
+            <img src="/images/13.webp" loading="lazy" decoding="async" alt="solution">
+        </div>
+        <div class="section solution">
+            <img src="/images/14.webp" loading="lazy" decoding="async" alt="solution">
         </div>
     </div>
+    <style>
+    html, body {
+      margin: 0; padding: 0; font-size: 100%;
+    }
+    li,ol{
+        list-style: none;
+    }
+    .header-wrap{
+        height: 56px;
+        left: 0;
+        min-width: 300px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    .header-inner{
+        background: #1a1b1e;
+        height: 100%;
+        padding: 0 24px;
+        position: relative;
+        width: 100%;
+        z-index: 99;
+    }
+    .section-wrap {
+      display: block; 
+      width: 100%; 
+      max-width: 1920px; 
+      /*margin: 56px auto 0 auto;*/
+    }
+    .section {
+      position: relative;
+      overflow: hidden;
+    }
+    .section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 </body>
-<style type="text/css">
-html, body, div {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-/*포트폴리오 css스타일 시작*/
-.wrap {
-    display:block; width:100%; max-width:1920px; margin:0 auto;
-}
-.section img {
-    width:100%; height:auto; display:block; 
-}
-</style>
 </html> 
